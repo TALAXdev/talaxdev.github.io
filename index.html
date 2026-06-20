@@ -12,7 +12,7 @@
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #121212;
+            background-color: #2b822d; /* El verde exacto del fondo de tu imagen */
             color: #ffffff;
             display: flex;
             flex-direction: column;
@@ -25,15 +25,19 @@
         .container {
             max-width: 400px;
             width: 100%;
+            background-color: rgba(0, 0, 0, 0.2); /* Un fondo sutil semi-transparente para dar contraste */
+            padding: 30px 20px;
+            border-radius: 20px;
         }
         h1 {
             font-size: 2.5rem;
             margin-bottom: 10px;
             font-weight: 800;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         p {
             font-size: 1.1rem;
-            color: #aaaaaa;
+            color: #e0e0e0;
             margin-bottom: 40px;
         }
         .btn {
@@ -46,13 +50,14 @@
             font-weight: 600;
             font-size: 1.1rem;
             transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.15);
         }
         .btn:active {
             transform: scale(0.98);
         }
         .btn-android {
-            background-color: #3DDC84;
-            color: #000000;
+            background-color: #3c265c; /* El violeta exacto de la camiseta */
+            color: #ffffff; /* Texto en blanco para mejorar el contraste y la legibilidad */
         }
         .btn-ios {
             background-color: #ffffff;
@@ -61,7 +66,7 @@
         .footer {
             margin-top: 40px;
             font-size: 0.85rem;
-            color: #555555;
+            color: rgba(255, 255, 255, 0.6);
         }
     </style>
 </head>
