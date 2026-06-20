@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Popular - Descargar App</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #aaaaaa;
+            margin-bottom: 40px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .btn-android {
+            background-color: #3DDC84;
+            color: #000000;
+        }
+        .btn-ios {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: #555555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>La Popular</h1>
+        <p>Elegí tu plataforma para descargar la app</p>
+
+        <a href="https://play.google.com/store/apps/details?id=com.talax.censodehinchas" target="_blank" class="btn btn-android">
+            Descargar para Android
+        </a>
+
+        <a href="https://apps.apple.com/us/app/la-popular/id6759761324" target="_blank" class="btn btn-ios">
+            Descargar para iOS
+        </a>
+
+        <div class="footer">
+            <p>&copy; 2026 La Popular. Todos los derechos reservados.</p>
+        </div>
+    </div>
+
+</body>
+</html>
